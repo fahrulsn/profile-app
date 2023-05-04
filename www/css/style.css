@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  /* border: 1px solid red; */
+  border: none;
+  text-decoration: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #1a1a1a;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+}
+#jumbotron {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+#profile {
+  background: linear-gradient(
+    120deg,
+    rgba(230, 230, 230, 1) 0%,
+    rgba(230, 230, 230, 0.5) 100%
+  );
+  display: flex;
+  width: 100%;
+  height: 85%;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0 0 4rem 4rem;
+  position: relative;
+  border-bottom: 5px solid #ccff00;
+}
+#greeting {
+  color: #1a1a1a;
+  height: 60%;
+  padding-left: 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#greeting h1 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  width: 90%;
+}
+.cta {
+  display: flex;
+  column-gap: 2rem;
+}
+.btn-light {
+  font-weight: 700;
+  padding: 5px 30px;
+  border-radius: 2rem;
+  border: 2px solid #1a1a1a;
+}
+.btn-dark {
+  font-weight: 700;
+  padding: 5px 30px;
+  border-radius: 2rem;
+  border: 2px solid #1a1a1a;
+  background-color: #1a1a1a;
+}
+#profile-img {
+  height: 100%;
+  border-radius: 0 0 4rem 0;
+  position: relative;
+}
+#profile-img img {
+  height: 100%;
+  border-radius: 0 0 4rem 0;
+}
+/* #profile-img::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  width: 30%;
+  background: linear-gradient(
+    90deg,
+    rgba(230, 230, 230, 1) 0%,
+    rgba(230, 230, 230, 0) 100%
+  );
+} */
+#social {
+  color: white;
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+#social .social-cont {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+}
+#social h1 {
+  font-size: 2rem;
+}
+.feather-size {
+  width: 2rem;
+  height: 2rem;
+}
+.line {
+  background-color: white;
+  height: 3px;
+  width: 20%;
+  border-radius: 1rem;
+}
+a:visited {
+  color: inherit;
+}
